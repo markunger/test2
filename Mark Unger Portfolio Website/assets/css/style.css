@@ -1,0 +1,310 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18;
+	color:#222222;
+}
+
+a{
+	color:#222222;
+	text-decoration: none;
+}
+
+.half{
+	position:relative;
+	margin:0px;
+	padding: 0px;
+	height:100vh;
+	width:50%;
+	float: left;
+	background:#FCFAF9;
+}
+
+/*left half*/
+
+.button-pic{
+	position:relative;
+	height:25vh;
+	width:33.3%;
+	float:left;
+	background:#333333;
+	overflow:hidden;
+}
+
+.photo {
+	width:100%;
+	height: 100%;
+	object-fit:cover;
+	z-index: 9;
+/*	transform: scale(1);
+	transition-duration:3s;*/
+	cursor: pointer;
+}
+
+/*.photo:hover{
+	transform: scale(1.1);
+	transition-duration:3s;
+}*/
+
+.pic-title-text{
+	z-index:10;
+	position: relative;
+	top:10%;
+	left:10px;
+	color:#FCFAF9;
+}
+
+.pic-title-text:hover{
+	cursor: pointer;
+}
+/*right half*/
+
+.content{
+	width:100%;
+	height:100vh;
+	overflow: scroll;
+}
+
+.hidecontent{
+	display:none;
+}
+/*home*/
+#mark-unger {
+	position:relative;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-left:15%;
+	margin-top:20%;
+	color:#222222;
+}
+
+.line{
+	width:312px;
+	height:2px;
+	position:relative;
+	margin-top: 15px;
+	margin-left:22%;
+	background:#222222;
+}
+
+.tagline{
+	margin-left:22%;
+	margin-top:30px;
+}
+
+#resume{
+	margin-left:22%;
+	margin-top:30px;
+	width:100px;
+	height:30px;
+	background:#222222;
+	text-align: center;
+	color:#FCFAF9;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    transition-duration: .7s;
+}
+
+#resume:hover{
+	cursor:pointer;
+	width:115px;
+	transition-duration: .7s;
+}
+
+#follow{
+	margin-left:22%;
+	margin-top:30px;
+}
+
+.follow-button{
+	width:130px;
+	margin-left: 22%
+}
+
+.follow-button:hover {
+	cursor:pointer;
+	font-weight: 600;
+}
+
+#linkedin{
+	margin-top:10px;
+}
+
+/*timeline*/
+#timelinetitle{
+	position:relative;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-left:15%;
+	margin-top:5%;
+	color:#222222;
+}
+
+#timelinepic{
+	position: relative;
+	width:90%;
+	left:50%;
+	transform: translateX(-50%);
+	top:20px;
+}
+
+
+
+/*skills*/
+#skills-title {
+	position:relative;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-left:15%;
+	margin-top:20%;
+	color:#222222;
+}
+/*hopr*/
+#hoprtitle {
+	position:relative;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-left:15%;
+	margin-top:20%;
+	color:#222222;
+}
+
+/*faces*/
+.facesofmark{
+	position:relative;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-left:15%;
+	margin-top:5%;
+	color:#222222;
+}
+
+.facepic{
+	position: relative;
+	margin-top:10px;
+	width:50%;
+	left:22%;
+}
+
+/*zine*/
+#zinetitle{
+	position:relative;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-left:15%;
+	margin-top:5%;
+	color:#222222;
+}
+
+#mindsnackspic{
+	position: relative;
+	width:80%;
+	left:50%;
+	transform: translateX(-50%);
+	top:20px;
+}
+
+
+/*fig*/
+#figg{
+	position:relative;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-left:15%;
+	margin-top:5%;
+	color:#222222;
+}
+
+#brainstormpic{
+	width:65%;
+	margin-left:17.5%;
+	margin-top:25px;
+	cursor:pointer;
+}
+
+
+/*photography*/
+.markphotos{
+	position:relative;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-left:15%;
+	margin-top:5%;
+	color:#222222;
+}
+
+.photopics{
+	position: relative;
+	margin-top:10px;
+	width:80%;
+	left:15%;
+}
+
+/*goals*/
+#goalstitle {
+	position:relative;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-left:15%;
+	margin-top:20%;
+	color:#222222;
+}
+
+/*wire art*/
+#wirephotos{
+	position:relative;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-left:15%;
+	margin-top:5%;
+	color:#222222;
+}
+
+.wirepics{
+	position: relative;
+	margin-top:10px;
+	width:70%;
+	left:22%;
+}
+
+/*stickers*/
+#stickers-title {
+	position:relative;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-left:15%;
+	margin-top:5%;
+	color:#222222;
+}
+
+.redbubble:hover{
+	cursor:pointer;
+	font-weight: 600;
+}
+
+#stickerr{
+	position: relative;
+	margin-top:10px;
+	width:40%;
+	left:24%;
+}
+
+/*travel*/
+#traveltitle{
+	position:relative;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:60px;
+	margin-left:15%;
+	margin-top:5%;
+	color:#222222;
+}
+
+#map{
+	position: relative;
+	width:90%;
+	left:50%;
+	transform: translateX(-50%);
+	top:20px;
+}
+
+
